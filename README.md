@@ -1,174 +1,140 @@
-# **Revolut Flutter SDK**
+<h1 align="center" style="border-bottom: none">
+  <div>
+    <a href="https://www.techstackapps.com">
+      <img alt="Tech Stack Apps" src="./docs/assets/rfsdk_logo.png" width="136" />
+      <br>
+    </a>
+    Revolut Flutter SDK
+  </div>
+</h1>
 
-## Download Revolut Flutter SDK
-Streamline your payment integration with the Revolut Flutter SDK. Download it today and start accepting payments in minutes!
 
-[![Download Revolut Flutter SDK](./docs/assets/download-revolut-flutter-sdk.png)](https://techstackapps.com/portfolio/revolut-flutter-sdk/)
+<p align="center">
+  <a href="changelog.md">
+    <img alt="Version" src="https://img.shields.io/badge/version-1.3.0-blue" height="24">
+  </a>
+  <a href="https://www.youtube.com/watch?v=Ss7PG-g3B2g">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="24"/>
+  </a>
+  <a href="https://www.linkedin.com/company/techstackapps/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="24"/>
+  </a>
+  <a href="https://x.com/techstackapps">
+    <img src="https://img.shields.io/twitter/follow/techstackapps" alt="Follow @techstackapps" height="24"/>
+  </a>
+</p>
+
+### One click solution support for:
+
+- `Card Payments`: Master card, VISA
+- `Revolut Pay`
+- `Apple Pay`
+- `Google Pay` (planned, currently its not supported)
 
 
-The `Flutter Revolut Payment SDK` allows you to easily accept payments using the payment solution developed by `Revolut` for businesses, [Payment Gateway](https://www.revolut.com/business/payment-gateway/).
+## Getting started
 
-This package wraps the existing `Android` and `iOS` native SDKs , `Revolut Pay` and `Revolut Card Payments`, found [here](https://bitbucket.org/revolut/workspace/projects/PUBLIC), and makes them work in the `Flutter` framework. By doing this, it simplifies the process to initiate a payment and interact with the Revolut backend to verify the payment status.
+<p align="left">
+  <a href="https://revolutfluttersdk.com" target="_blank" style="text-decoration: none;">
+    <button style="
+      background-color: #2052C5;
+      color: white;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;">
+      🛒 Get Revolut Flutter SDK
+    </button>
+  </a>
+</p>
 
-##### NOTE
+## Give it a try, use [example app](./example/)  
+- Use the [example app](./example/) to explore the SDK's functionality.  
+- Follow the [**README.md**](./example/README.md) instructions inside the [example folder](./example/)  for a smooth setup.
 
-In order to use and accept card payments with `Revolut`, you need to have been [accepted as a Merchant](https://www.revolut.com/business/help/merchant-accounts/getting-started/how-do-i-apply-for-a-merchant-account) in your [Revolut Business](https://business.revolut.com/merchant) account.
+---
+
+## Requirements
+
+### [Merchant account on Revolut Business](https://business.revolut.com/signup?promo=referabusiness&ext=26cc1652-6fa0-4911-9149-b46c49d32d30&context=B2B_REFERRAL)
+
+To accept payments with `Revolut`, you’ll need a [Revolut Business](https://business.revolut.com/signup?promo=referabusiness&ext=26cc1652-6fa0-4911-9149-b46c49d32d30&context=B2B_REFERRAL), and [Revolut Business Merchant account](https://business.revolut.com/signup?promo=referabusiness&ext=26cc1652-6fa0-4911-9149-b46c49d32d30&context=B2B_REFERRAL) from which you can get the `Merchant ID`.
+
+<table>
+  <tr>
+    <td style="padding: 10px 0;">
+      Don’t have a Revolut Business account yet?
+    </td>
+    <td>
+      <a href="https://business.revolut.com/signup?promo=referabusiness&ext=26cc1652-6fa0-4911-9149-b46c49d32d30&context=B2B_REFERRAL" target="_blank" style="text-decoration: none;">
+        <button style="
+          background-color: #2052C5;
+          color: white;
+          padding: 10px 18px;
+          font-size: 16px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;">
+          🚀 Sign Up for Revolut Business
+        </button>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Payment Methods
+This SDK provides multiple ways to accept payments to your **Revolut Business** account:  
+
+- `Card Payments`.
+- `Revolut Pay` – a seamless checkout experience within the `Revolut` app.
+- `Apple Pay` – allowing customers to pay effortlessly using their Apple devices.
+- `Google Pay` – (comming soon, officialy is not supported yet).
+
+This ensures a smooth and flexible payment experience for your customers. 🎯
+
+## Description
+
+This SDK simplifies integrating [Revolut’s Payment Gateway](https://www.revolut.com/business/payment-gateway/) into your `Flutter` applications, simplifying the acceptance of payments for [Revolut Business](https://business.revolut.com/signup?promo=referabusiness&ext=26cc1652-6fa0-4911-9149-b46c49d32d30&context=B2B_REFERRAL).
+
+The package wraps existing native SDKs for `Android` and `iOS`, including specific support for packages such as `Card Payments`, `Revolut Payments`. It streamlines initiating payments and interacting seamlessly with the Revolut backend to verify payment statuses.
+
+## Card Payment
+
+Securely process debit and credit card payments using `Revolut`'s payment infrastructure. Supports multiple currencies and real-time transaction processing.
+
+<img src="./docs/assets/card.gif" alt="Card Payment Demo" style="border-radius: 48px;">
+
+## Revolut Pay
+
+Offer a seamless checkout experience with `Revolut Pay`, allowing users to pay directly from their `Revolut` accounts with instant confirmation.
+
+<img src="./docs/assets/revolut_pay.gif" alt="Revolut Pay Demo" style="border-radius: 48px;">
+
+## Apple Pay
+
+Enable `Apple Pay` for fast, secure, and contactless payments on `iOS ` devices, providing a frictionless checkout experience for customers.
+
+<img src="./docs/assets/revolut_apple_pay.gif" alt="Apple Pay Demo" style="border-radius: 48px;">
+
+## Google Pay (cooming soon)
+
+Enable `Google Pay` for fast, secure, and contactless payments on `Android` devices, providing a frictionless checkout experience for customers.
+
+Not available at this moment, waiting for [Revolut Business](https://business.revolut.com/signup?promo=referabusiness&ext=26cc1652-6fa0-4911-9149-b46c49d32d30&context=B2B_REFERRAL) team to make it officially availablein the official native `SDK`.
+
 
 Some helpful links:
 - More information on the [Merchant API](https://developer.revolut.com/docs/accept-payments/)
 - [API Reference](https://developer.revolut.com/docs/api-reference/merchant)
 
-## Local installation
-
-1. [Download the package zip.](https://techstackapps.com/portfolio/revolut-flutter-sdk/)
-2. Unzip the package
-3. Add the package dependency to `pubspec.yaml` using the path you saved the package to:
-   ```
-   flutter_revolut_payment:
-    path: [Path to package]
-   ```
-
-### Requirements
+### Minimum supported versions
 
 |         |            Version |
 |---------|-------------------:|
-| Dart    |             2.16.2 |
-| Flutter |             2.10.4 |
+| Dart    |              3.2.0 |
+| Flutter |              3.3.0 |
 | Android | 5.0 (Api level 21) |
 | iOS     |                 13 |
-
-For `iOS` you also have to change the `Podfile` in the `ios` folder of your project so that `CocoaPods` installs the pod for this package as static:
-
-```
-target 'Runner' do
-  use_frameworks! :linkage => :static
-
-  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
-end
-```
-
-## Usage
-This SDK offers two different ways of accepting payments made to your Business account: directly accepting a card payment, or accepting a payment through the `Revolut` app using `Revolut Pay`.
-
-Before everything, you need to be aware of your Merchant API keys. The public key will be used to initialise the SDK, while the secret key will be used as authorisation for the API calls.
-
-To initialise the package in your `Flutter` app, use the `RevolutPayment` base class. First set the `merchantPublicKey` and the `environment`, which is either `RevolutEnvironment.SANDBOX` or `RevolutEnvironment.PRODUCTION`, then call the `applySettings()` function:
-
-```dart
-RevolutPayment.environment = RevolutEnvironment.[ENV];
-RevolutPayment.merchantPublicKey ="[publicKey]";
-await  RevolutPayment.instance.applySettings();
-``` 
-
-## The payment flow
-
-After initialisation, when you want to accept a payment in your app the first thing you need to do is create an order on the `Revolut` backend with the needed amount and currency:
-```
-curl -X "POST" "https://merchant.revolut.com/api/1.0/orders" \
-   -H 'Authorization: Bearer [secretKey]' \
-   -H 'Content-Type: application/json; charset=utf-8' \
-   -d $'{
-     "amount": 100,
-     "currency": "GBP"
-    }'
-```
-
-The API will return a JSON when the order is successfully created from which you need the `public_id` in order to start a payment.
-
-The next steps are different for the two ways of accepting payments.
-
-### 1. Revolut Card Payments
-
-![Card payment demo](./docs/assets/card_payment_demo.gif)
-
-In order to accept direct card payments, you need to call the `startCardPayment(orderId, configuration)` asynchronous function. This will bring up the payment screen where the user can enter their card information. The function returns the `"authorised"` string if successful or throws a `RevolutCardPaymentException` for all failure cases.
-
-The parameters:
-- `orderId` is the above-mentioned public_id of the order 
--  `configuration` is an object of type `CardPaymentConfiguration` that is optional and passes the e-mail and address of the user
-
-Usage example:
-```dart
-try {
-	await  RevolutPayment.instance.startCardPayment(
-		orderId: revolutOrderId,
-		//configuration is optional
-		configuration: CardPaymentConfiguration(
-			email: email,
-			billingAddress: CardBillingAddress(
-				streetLine1: line1,
-				streetLine2: line2,
-				city: city,
-				region: region,
-				countryIsoCode: isoCode,
-				postcode: postCode)));
-	//success case
-} catch (e) {
-	if (e  is  RevolutCardPaymentException) {
-		//payment failure case
-	} else {
-		//general failure case
-	}
-}
-```
-
-### 2. Revolut Pay
-
-![Revolut Pay demo](./docs/assets/revolut_pay_demo.gif)
-
-This payment method lets the user make payments more easily using their `Revolut` account, if they have one. To add this functionality to your app you only need to add the `RevolutPayButton` widget to your screen. When the user taps the button there are two possible things that can happen:
-- if the `Revolut` app is installed on their phone, the user is taken to it and can pay there
-- if the `Revolut` app is not installed, the user is taken to a webview with a card form similar to the other payment method
-(this is true only for the production environment, in sandbox the user is never taken to the `Revolut` app even if it's installed)
-
-If the payment is successful, the widget calls the `onSucceeded` void callback. If it fails for whatever reason, it calls the `onFailed(errorMessage)` callback. You need to provide these callbacks when you instantiate the button.
-
-Usage example:
-```dart
-RevolutPayButton(
-	orderPublicId: revolutOrderId,
-	height: height,
-	width: width,
-	buttonParams: RevolutPayButtonParams(
-		radius: RevolutPayRadius.LARGE,
-		size: RevolutPaySize.MEDIUM,
-		//lightMode and darkMode are optional
-		lightMode: RevolutPayVariant.LIGHT_OUTLINED,
-		darkMode: RevolutPayVariant.DARK_OUTLINED),
-	onSucceeded: () {
-		//success case
-	},
-	//onFailed is optional
-	onFailed: (message) {
-		//failure case
-	}
-)
-```
-
-The SDK also offers the possibility of checking if the `Revolut` app is installed on the user's device using the `isRevolutAppInstalled()` function which returns a bool.
-
-#### Support the Revolut app URL scheme
-If you want the widget to be able to open the `Revolut` app you need to add the relevant URL scheme to your application:
-
-For `Android` you need to add the following to your `AndroidManifest.xml`:
-```xml
-<queries>
-    <package android:name="com.revolut.revolut" />
-</queries>
-```
-
-For `iOS` add to your `Info.plist` file:
-```xml
-<key>LSApplicationQueriesSchemes</key>
-<array>
-    <string>revolut</string>
-</array>
-```
-
-## Example app
-This package comes with an example application that presents the functionality of both payment methods in a straightforward manner. To run it:
-```sh
-cd example
-flutter pub get
-flutter run 
-```

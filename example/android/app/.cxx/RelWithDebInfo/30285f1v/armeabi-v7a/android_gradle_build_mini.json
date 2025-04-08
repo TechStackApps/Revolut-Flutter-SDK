@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/beniamin/fvm/versions/3.16.1/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/beniamin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/beniamin/Work/_TECHSTACKAPPS/REVOLUT_SDK/_PROJECTS/MOBILE/APP/revolut_demo_app/android/app/.cxx/RelWithDebInfo/30285f1v/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/beniamin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/beniamin/Work/_TECHSTACKAPPS/REVOLUT_SDK/_PROJECTS/MOBILE/APP/revolut_demo_app/android/app/.cxx/RelWithDebInfo/30285f1v/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
