@@ -1,0 +1,2 @@
+/Users/beniamin/Work/_TECHSTACKAPPS/REVOLUT_SDK/_PROJECTS/MOBILE/APP/revolut_demo_app/android/app/.cxx/Debug/2zu6j3ai/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/beniamin/Work/_TECHSTACKAPPS/REVOLUT_SDK/_PROJECTS/MOBILE/APP/revolut_demo_app/android/app/.cxx/Debug/2zu6j3ai/armeabi-v7a/CMakeFiles/rebuild_cache.dir

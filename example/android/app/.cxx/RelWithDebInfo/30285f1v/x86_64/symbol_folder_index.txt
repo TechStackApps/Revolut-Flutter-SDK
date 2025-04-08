@@ -1,0 +1,1 @@
+/Users/beniamin/Work/_TECHSTACKAPPS/REVOLUT_SDK/_PROJECTS/MOBILE/APP/revolut_demo_app/build/app/intermediates/cxx/RelWithDebInfo/30285f1v/obj/x86_64
