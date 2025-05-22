@@ -54,11 +54,11 @@ You can add the required package to your project by executing:
 
 - General installation:
 ```sh
-  dart pub add flutter_revolut --hosted-url https://dart.cloudsmith.io/techstackapps/revolut-flutter-sdk/
+  dart pub add revolut_payments_flutter --hosted-url https://dart.cloudsmith.io/techstackapps/revolut-flutter-sdk/
   ```
 - Installing a specific version:
 ```sh
-  dart pub add flutter_revolut:1.3.0 --hosted-url https://dart.cloudsmith.io/techstackapps/revolut-flutter-sdk/
+  dart pub add revolut_payments_flutter:1.3.0 --hosted-url https://dart.cloudsmith.io/techstackapps/revolut-flutter-sdk/
   ```
 
 This will automatically update your `pubspec.yaml` file with the new dependency:
@@ -66,7 +66,7 @@ This will automatically update your `pubspec.yaml` file with the new dependency:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_revolut:
+  revolut_payments_flutter:
     hosted: https://dart.cloudsmith.io/techstackapps/revolut-flutter-sdk/
     version: ^1.3.0
 ```
